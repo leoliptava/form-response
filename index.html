@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Form Response</title>
+</head>
+<body>
+    
+    <div class="header-title text-center">
+        <h1>Fomulário Responsivo</h1>
+        <small>Busca CEP automatico</small>
+    </div>
+
+    <hr class="divider-title">
+
+    <div class="container text-start">
+
+
+
+        <form action="">
+
+            <div class="form-row">
+                
+                <div class="col form-group">
+                    <label for="firstName">Primeiro Nome</label>
+                    <input class="form-control" type="text" name="firstName" id="firstName">
+                </div>
+
+                <div class="col form-group">
+                    <label for="lastName">Ultimo Nome</label>
+                    <input class="form-control" type="text" name="lasttName" id="lastName">
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+
+                <div class="col-sm-12 form-group">
+                    <label for="cep">CEP</label>
+                    <input class="col-md-3 form-control" type="text" name="cep" id="cep">
+                </div>
+
+                <div class="col-sm-12 col-md-8 form-group">
+                    <label for="endereco">Endereço</label>
+                    <input class="col form-control" type="text" name="endereco" placeholder="Rua, Av..." id="endereco">
+                </div>
+
+                <div class="col-sm-12 col-md-4 form-group">
+                    <label for="numero">Número</label>
+                    <input class="col form-control" type="text" name="numero" id="numero">
+                </div>
+
+                <div class="col-sm-12 col-md-6 form-group">
+                    <label for="complemento">Complemento</label>
+                    <input class="form-control" type="text" name="complemento" id="complemento">
+                </div>
+
+                <div class="col-sm-12 col-md-6 form-group">
+                    <label for="bairro">Bairro</label>
+                    <input class="form-control" type="text" name="bairro" id="bairro">
+                </div>
+
+                <div class="col-sm-12 col-md form-group">
+                    <label for="cidade">Cidade</label>
+                    <input class="form-control" type="text" name="cidade" id="cidade">
+                </div>
+
+                <div class="col col-md form-group">
+                    <label for="estado">Estado</label>
+                    <input class="form-control" type="text" name="estado" id="estado">
+                </div>
+
+                <div class="col col-md form-group">
+                    <label for="pais">País</label>
+                    <input class="form-control" type="text" name="pais" id="pais">
+                </div>
+
+            </div>
+
+            <div class="form-row">
+                <div class="col">
+                    <button type="submit" class="col btn btn-primary">Salvar</button>
+                </div>
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+<script src="/node_modules/jquery/dist/jquery.slim.js"></script>
+<script src="/node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
