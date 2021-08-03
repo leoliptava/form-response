@@ -1,3 +1,7 @@
+body {
+    height: 120vh;
+}
+
 .header-title {
     margin-top: 50px;
     margin-bottom: 50px;
