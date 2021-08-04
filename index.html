@@ -21,18 +21,36 @@
 
 
 
-        <form action="">
+        <form id="formCep" action="" novalidate class="needs-validation">
 
             <div class="form-row">
                 
                 <div class="col form-group">
                     <label for="firstName">Primeiro Nome</label>
-                    <input class="form-control" type="text" name="firstName" id="firstName">
+                    <input class="form-control" type="text" name="firstName" id="firstName" required>
+                
+                    <div class="valid-feedback">
+                        Bom trabalho!
+                    </div>
+
+                    <div class="invalid-feedback">
+                        Por favor digite o seu nome!
+                    </div>
+                
                 </div>
 
                 <div class="col form-group">
                     <label for="lastName">Ultimo Nome</label>
-                    <input class="form-control" type="text" name="lasttName" id="lastName">
+                    <input class="form-control" type="text" name="lasttName" id="lastName" required>
+                
+                    <div class="valid-feedback">
+                        Bom trabalho!
+                    </div>
+
+                    <div class="invalid-feedback">
+                        Por favor digite o seu ultimo nome!
+                    </div>
+                
                 </div>
 
             </div>
@@ -43,7 +61,16 @@
 
                 <div class="col-sm-12 form-group">
                     <label for="zipCode">CEP</label>
-                    <input class="col-md-3 form-control" type="text" name="zipCode" id="zipCode">
+                    <input class="col-md-3 form-control" type="text" name="zipCode" id="zipCode" required>
+                
+                    <div class="valid-feedback">
+                        Bom trabalho!
+                    </div>
+
+                    <div class="invalid-feedback">
+                        Por favor digite o CEP!
+                    </div>
+                
                 </div>
 
                 <div class="col-sm-12 col-md-8 form-group">
@@ -98,5 +125,7 @@
 <script src="/node_modules/jquery/dist/jquery.slim.js"></script>
 <script src="/node_modules/@popperjs/core/dist/cjs/popper.js"></script>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="assets/js/index.js"></script>
+
 </body>
 </html>
